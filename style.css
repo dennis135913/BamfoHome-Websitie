@@ -1,0 +1,128 @@
+body {
+    background-color: #17252a;
+    text-align: center;
+    border-radius: 50px;
+    height: 500vh;
+}
+.head {
+    background-color:black;
+    margin: 15px;
+    border-radius: 10px;
+    height: 35px;
+    display: flexbox;
+    
+    
+}
+.bottom {
+    background-color:white;
+    margin: 15px;
+    border-radius: 10px;
+    height: 35px;
+    text-align: right;
+}
+button{
+    text-align: center;
+    border-radius: 10px;
+    margin: solid 1px green;
+    background-color: white;
+    height: 35px;
+    font-weight: bold;
+}
+.container {
+    border: solid 2px #806868;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+
+}
+.item{
+    border: 2px solid #457081;
+    margin: 10px;
+    background-color: lightblue;
+    flex-basis: 100%;
+
+
+}
+.fix1{
+    width: 170px;
+    height: 60px;
+    
+
+}
+.fix{
+    width: 110px;
+}
+.btn{
+    border-radius: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: none;
+    margin: 1rem 0;
+    white-space: nowrap;
+    cursor: pointer;
+    }
+.btn--primary:hover{
+    background: darkgreen;
+
+
+
+}
+.btn1--primary:hover{
+    background-color: darkred;
+}
+.btn2--primary:hover{
+    background-color: darkblue;
+}
+h1{
+    font-weight: bold;
+    background-color: whitesmoke;
+    
+}
+h2{
+    font-weight: bolder;
+    margin: 15px;
+    border-radius: 10px;
+    height: 35px;
+    background-color:gray;
+
+
+    
+
+}
+.container1{
+    width: 375px;
+    height: 550px;
+    background-color: darkblue;
+    border-radius: 15px;
+    box-shadow:4px 4px 30px rgba(0, 0, 0, 0.06) ;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.container1 form{
+    width: 100%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.container1 form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user .u-details h2{
+    font-size: 20px;
+    color: aqua;
+}
